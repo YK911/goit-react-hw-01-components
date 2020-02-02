@@ -1,0 +1,17 @@
+.profile{
+    display: block;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.avatar{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
