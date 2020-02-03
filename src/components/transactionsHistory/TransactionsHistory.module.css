@@ -1,0 +1,47 @@
+.transactionHistory {
+  border-radius: 4px;
+  border-collapse: collapse;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 2px 2px rgba(2, 2, 2, 0.2);
+  width: 460px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.transactionHistory > thead,
+.transactionHistory > tbody {
+  text-align: center;
+  color: #fff;
+}
+
+.transactionHistory > thead > tr {
+  background-color: #c0fcf7;
+}
+
+.transactionHistory > thead > tr > th {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #d3dad9;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.transactionHistory > tbody > tr > td {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+
+  height: 30px;
+  border: 1px solid #d3dad9;
+  color: #95b1ae;
+}
+
+.transactionHistory > tbody > tr:nth-last-of-type(even) {
+  background-color: #dddddd;
+}
+.transactionHistory > tbody > tr:nth-last-of-type(odd) {
+  background-color: rgb(141, 137, 137);
+}
